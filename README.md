@@ -1,8 +1,8 @@
 ### Hi, I'm Linas Peleckas 👋
 
-I'm an applied AI engineer. I build LLM agents and RAG systems that are evaluated, traced and deployed, with a focus on **finance**.
+I'm an AI engineer focused on **agents**: LLMs that plan, call tools, remember and hand off to a human when it matters. I build them with LangGraph and MCP, then evaluate, trace and deploy them. My domain is **finance**.
 
-**Previously:** debt capital markets at a Lithuanian bank (12+ bond issuances, €170M+), financial risk (Python Monte Carlo VaR) and investment analysis (Airbyte → BigQuery → dbt pipelines). Now studying Data Science & AI Engineering at Turing College.
+**Previously:** debt capital markets at a Lithuanian bank (12+ bond issuances, €170M+), financial risk (Python Monte Carlo VaR) and investment analysis (Airbyte → BigQuery → dbt pipelines). Graduated from Turing College in Data Science & AI Engineering.
 
 <a href="https://www.linkedin.com/in/linas-peleckas-90a7a9184/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
@@ -15,4 +15,6 @@ I'm an applied AI engineer. I build LLM agents and RAG systems that are evaluate
 - 🍳 [**fridge-agent**](https://github.com/Lin3lis-Pel/Fridge2Fork) ([live](https://fridgeagent-30975867572.europe-north1.run.app)): a four-agent vision workflow that turns photos of a fridge into recipes. Runs on Vertex AI or local Ollama.
 - 📈 [**nvda-rl-trading**](https://github.com/Lin3lis-Pel/RL_TC): market-regime discovery (k-means, PCA) plus Q-learning and PPO trading agents, compared with buy-and-hold.
 
-**Stack:** Python · LangChain / LangGraph · MCP · FastAPI · PostgreSQL + pgvector · Next.js · Docker · Google Cloud Run · LangSmith
+**Agent stack:** LangGraph (state graphs, tool loops, `interrupt`, checkpointers, long-term memory) · MCP servers · function calling · agentic RAG · LangSmith tracing · evals
+
+**Engineering:** Python · FastAPI · PostgreSQL + pgvector · Next.js · Docker · Google Cloud Run
