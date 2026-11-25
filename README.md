@@ -1,6 +1,6 @@
 ### Linas Peleckas here
 
-Hi, I'm Linas, an Artificial Intelligence enthusiast and a Data Science & AI Engineer, graduate of Turing College.
+Hi, I'm Linas, an AI Engineer building LLM agents and RAG systems, and a Data Science & AI Engineering graduate of Turing College.
 
 My main interests are Artificial Intelligence, cloud computing, AI architecture and solving real-world problems with AI.
 
@@ -12,10 +12,12 @@ I'm active in the IT community and write about what I build! You can find me on 
 
 ### My projects
 
-- [**gcp-infra-review-agent**](https://github.com/Lin3lis-Pel/AI_Agents): a LangGraph agent that reviews Terraform before `apply`. It checks security, estimates cost and runs agentic RAG over the GCP docs, with a human-in-the-loop step. It runs over MCP for coding agents and has a web UI for people.
-- [**movie-research-copilot**](https://github.com/Lin3lis-Pel/RAG) ([live](https://ai-devops-508221.web.app/)): hybrid RAG (pgvector + full-text + RRF) over 10k critic reviews, with SQL tools served over MCP and a 49-question eval set. FastAPI on Cloud Run.
-- [**fridge-agent**](https://github.com/Lin3lis-Pel/Fridge2Fork) ([live](https://fridgeagent-30975867572.europe-north1.run.app/)): a four-agent vision workflow that turns photos of a fridge into recipes. Runs on Vertex AI or local Ollama.
-- [**nvda-rl-trading**](https://github.com/Lin3lis-Pel/RL_TC): market-regime discovery (k-means, PCA) plus Q-learning and PPO trading agents, compared with buy-and-hold.
+| Project | What it does | Stack | Repo & live |
+|---|---|---|---|
+| **gcp-infra-review-agent** | Reviews Terraform before `apply`: security, cost and GCP docs, with human review. ~3.3&nbsp;s and under $0.002 per review | LangGraph · MCP · DeepEval · Next.js | [Repo](https://github.com/Lin3lis-Pel/AI_Agents) |
+| **movie-research-copilot** | Answers movie questions with citations from 9,987 critic reviews. 0.98 accuracy on a 49-question eval | FastAPI · pgvector · MCP · Cloud Run | [Repo](https://github.com/Lin3lis-Pel/RAG) · [Live](https://ai-devops-508221.web.app/) |
+| **fridge-agent** | Four agents turn fridge photos into recipes, on Vertex AI or fully local | Gemini · Vertex AI · Ollama · Docker | [Repo](https://github.com/Lin3lis-Pel/Fridge2Fork) |
+| **interview_AI_chatbot** | Turns a job ad into an adaptive mock interview with a scored debrief. Five prompt strategies compared on 29 eval checks | Streamlit · Instructor · Pydantic · OpenRouter | [Repo](https://github.com/Lin3lis-Pel/interview_AI_chatbot) |
 
 ---
 
